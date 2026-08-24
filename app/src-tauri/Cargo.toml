@@ -43,7 +43,7 @@ windows = { version = "0.61.3", features = ["Win32_UI_Shell", "Win32_System_Com"
 objc2 = "0.6"
 objc2-foundation = "0.3"
 objc2-app-kit = "0.3"
-core-graphics-types = "0.1"
+core-graphics-types = "0.2"
 tauri-plugin-key-intercept = { git = "https://github.com/yigitkonur/tauri-plugin-key-intercept" }
 
 [target.'cfg(target_os = "windows")'.dependencies]
