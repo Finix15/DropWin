@@ -34,7 +34,7 @@ thumb-rs = { path = "vendor/thumb-rs" }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
 tracing-appender = "0.2"
-dirs = "5"
+dirs = "6"
 
 windows-core = "0.61.2"
 windows = { version = "0.61.3", features = ["Win32_UI_Shell", "Win32_System_Com", "Win32_System_Memory", "Win32_Foundation", "Win32_System_DataExchange", "Win32_System_Com_StructuredStorage"] }
